@@ -12,4 +12,10 @@ class SampleTest {
     private fun add(a: Int, b: Int): Int {
         return a + b
     }
+
+    @Test
+    fun `simple addition test should fail`() {
+        val result = add(2, 3)
+        assertEquals(999, result) // intentionally incorrect
+    }
 }
