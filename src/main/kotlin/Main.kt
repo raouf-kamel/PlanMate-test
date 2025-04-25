@@ -14,4 +14,3 @@ fun main() {
         println("i = $i")
     }
 }
-a)
